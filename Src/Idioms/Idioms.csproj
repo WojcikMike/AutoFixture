@@ -79,8 +79,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicEqualityRulesAssertion.cs" />
     <Compile Include="CompositeBehaviorExpectation.cs" />
+    <Compile Include="CompositeIdiomaticAssertion .cs" />
     <Compile Include="EmptyGuidBehaviorExpectation.cs" />
+    <Compile Include="EqualityException.cs" />
+    <Compile Include="EqualityWithNullAssertion.cs" />
+    <Compile Include="EqualityWithSelfAssertion.cs" />
     <Compile Include="IExpansion.cs" />
     <Compile Include="IndexedReplacement.cs" />
     <Compile Include="MethodInfoExtensions.cs" />
